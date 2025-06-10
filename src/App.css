@@ -1,0 +1,251 @@
+*{
+  font-family:Arial, Helvetica, sans-serif;
+}
+.slider-1 {
+  width: 100%;
+  overflow: hidden; 
+  background: rgb(36 47 102);
+}
+
+.js-marquee-wrapper {
+  white-space: nowrap; /* Prevent text from wrapping */
+  animation: marqueeAnimation 15s linear infinite; /* Adjust timing as needed */
+  color: white;
+}
+
+@keyframes marqueeAnimation {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-100%); /* Adjust direction of sliding */
+  }
+}
+
+ul {
+
+  list-style-type: none;
+  padding: 0;
+  overflow: hidden;
+  color: black;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  margin: 7px;
+  margin-left: 20px;
+
+
+}
+
+
+.popover{
+  height: 100px;
+  width: 50px;
+  margin-top: 50%;
+}
+
+
+.p-2{
+  text-align: center;
+
+
+}
+.p-2 a{
+  text-decoration: none;
+  color: black;
+
+}
+.p-2 img:hover{
+  transition: 0.2s;
+
+  transform: scale(1.2);
+
+}
+.p-2 a:hover{
+  transition: 0.2s;
+  transform: scale(1.2);
+
+}
+.custom-button{
+  background: rgb(36 47 102);
+  color: aliceblue;
+  border-radius: 30px;
+}
+
+
+.men{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7%;
+  cursor: pointer;
+}
+.men img{
+  height:150px;
+  width:150px;
+  border-radius: 50%; 
+  transition: 0.5s;
+}
+.cloths{
+  display: flex;
+  flex-direction: column; 
+  gap: 15px;
+  align-items: center;
+  border-radius: 50%;
+}
+.men h5{
+  font-weight: bold;
+  z-index: 9999999;
+  margin-top: 15px;
+  cursor: pointer;
+
+
+}
+.cloths img:hover{
+  transition: 0.5s;
+position:relative;
+ 
+  transform: scale(1);
+ }
+.men h5:hover{
+  transition: 0.5s;
+}
+
+.newLaunch img{
+  height: 390px;
+  width: 290px;
+  border-radius: 10px;
+  cursor: pointer;
+
+
+}
+.newLaunch{
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  margin: 25px;
+}
+.shopForMen,.shopForWomen{
+  margin-top: 150px;
+}
+
+.shopForMen img,
+.shopForWomen img {
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
+  cursor: pointer;
+
+}
+.men-1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.men-1  h5{
+  margin-top: 15px;
+  cursor: pointer;
+}
+.men-1 h5:hover{
+  font-weight: bold;
+}
+
+.ourStory img{
+height: 386px;
+width: 1480px;
+margin-top: 10%;
+margin-bottom: 5%;
+}
+.travelHoodie img{
+  height: 386px;
+width: 1480px;
+}
+.col img{
+  width: 284px;
+  height: 426px;
+  cursor: pointer;
+}
+.col img:hover{
+  transition:0.2s;
+  transform: scale(1.1);
+}
+.col{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.uniqueFeatures{
+  width: 1480px;
+  height:480px;
+  background: rgb(233 234 240 );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.uniqueFeatures img{
+  width: 1036px;
+  height: 316px;
+
+}
+
+
+.mySwiper img{
+  width:284px;
+  height:426px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.mySwipper img:hover{
+  transition:0.2s;
+  transform: scale(1.5);
+}
+.mySwiper {
+ display: flex;
+ align-items: center;
+ gap: 15px;
+}
+.coll{
+  background: rgb(36 47 102);
+}
+.footer{
+  width: 1480px;
+  height: 254px;
+  display:flex;
+  justify-content: center;
+  gap: 200px;
+  
+}
+.footer p{
+  cursor: pointer;
+}
+.footer p:hover{
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+.footer .footer-parts{
+  margin-top: 70px;
+  color: white;
+}
+.Footer-1{
+  color: white;
+  width: 1480px;
+  height: 128px;
+ 
+}
+.Footer-1 p{
+  font-size: 0.7em;
+  margin: 100px;
+}
